@@ -1,0 +1,138 @@
+body {
+  color: rgb(52, 52, 52);
+  background-color: rgb(224, 224, 224);
+  font-family: serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  color: rgb(52, 52, 52);
+  text-align: center;
+  font-size: 20px;
+  background: rgb(170, 161, 161);
+}
+
+footer {
+  color: rgb(247, 255, 247);
+  display: flex;
+  justify-content: center;
+  background: rgb(128, 128, 128);
+  padding: 0px;
+}
+
+h1,
+h2 {
+  font-family: caveat, cursive;
+  font-weight: 400;
+  margin: 0px;
+}
+
+h1 {
+  color: rgb(141, 0, 0);
+  font-size: 100px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 50px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: auto;
+}
+
+img {
+  width: 300px;
+}
+
+.mwanza img {
+  width: 400px;
+  display: flex;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0px auto;
+  padding: 60px 0px;
+}
+
+.stack {
+  background: rgb(247, 255, 247);
+}
+
+.work-experience {
+  background: rgb(161, 198, 215);
+}
+
+.btn {
+  color: rgb(247, 255, 247);
+  background: rgb(47, 48, 97);
+  padding: 3px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(247, 255, 247);
+  padding: 1px;
+  border-radius: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#nav h1 {
+  display: none;
+}
+#nav ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  background-color: #b3b3b3;
+  width: 100%;
+}
+
+#nav li a:link,
+#nav li a:visited {
+  display: inline-block;
+  padding: 0 100px;
+  border-right: 2px solid #3c6b92;
+  font: 1.25em serif;
+  text-transform: uppercase;
+  color: #3c6b92;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+#nav li a.current,
+#nav li a.current:hover {
+  color: rgb(247, 255, 247);
+  cursor: default;
+}
+#nav li a:hover,
+#nav li a:active {
+  color: rgb(247, 255, 247);
+  border-bottom: none;
+}
+#nav li a:link span.subheading,
+#nav li a:visited span.subheading {
+  font-family: serif;
+  color: rgb(247, 255, 247);
+  text-transform: none;
+  padding-top: 0.5em;
+  letter-spacing: 0;
+}
+#nav li:last-child a {
+  border-right: none;
+}
